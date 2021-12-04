@@ -12,14 +12,14 @@ display: flex;
     padding: 20px;
     color: wheat;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     border: 2px solid rgb(0, 0, 0);
 }
 
 .box{
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     align-items: center;
     justify-content: center;
     /* background-color: rgb(9, 190, 245); */
@@ -56,10 +56,10 @@ body{
     background-color: black;
 }
 .gaming{
-    display: grid;
-    grid-template-columns: 5fr  5fr;
-    height: 100%;
-    /* background-color: black; */
+    /* display: grid; */
+    /* grid-template-columns: 5fr  5fr; */
+    /* height: 100%; */
+    background-color: black;
     /* padding: 30px; */
 }
 .title{
@@ -91,9 +91,11 @@ body{
 #restart{
     background-color: rgb(11, 32, 148);
     color: white;
-    width: 100%;
-    height: 30%;
+    /* width: 100%;
+    height: 30%; */
     border-radius: 10px;
+    margin-bottom: 20%;
+    margin-top: 20%;
     border: 2px solid white;
     font-size: 1.5rem;
 }
@@ -101,8 +103,9 @@ body{
 #test{
     background-color: rgb(11, 32, 148);
     color: white;
-    width: 100%;
-    height: 30%;
+    /* width: 100%;
+    height: 30%; */
+    /* margin-bottom: 10px; */
     border-radius: 10px;
     border: 2px solid white;
     font-size: 1.5rem;
